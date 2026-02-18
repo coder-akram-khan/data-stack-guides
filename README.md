@@ -706,7 +706,7 @@ For collaboration inquiries
 
 ### **Akram Khan**
 
-*Data Analyst | ML Engineer | Cloud Enthusiast*
+**Data Analyst | ML Engineer**
 
 </div>
 
@@ -721,6 +721,11 @@ I'm passionate about making data science accessible through clear, practical tut
 
 **Why I Create These Tutorials:**
 > "I've spent countless hours debugging environments, figuring out deployments, and learning from scattered resources. These tutorials are what I wish I had when I started - comprehensive, practical, and production-ready."
+
+📫 **Connect with me:**
+- GitHub: [@coder-akram-khan](https://github.com/coder-akram-khan)
+- LinkedIn: [Akram Khan](https://linkedin.com/in/mr-akram-khan)
+- Email: akram.codes.it@gmail.com
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
