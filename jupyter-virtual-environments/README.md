@@ -363,7 +363,7 @@ Python (.venv) ● Connected
 
 ---
 
-## ✅ Verification and Testing
+## ☑ Verification and Testing
 
 ### Test 1: Verify Kernel Path
 
@@ -835,6 +835,7 @@ This guide is released under the [MIT License](LICENSE).
 *Building better workflows, one virtual environment at a time.*
 
 </div>
+
 
 
 
