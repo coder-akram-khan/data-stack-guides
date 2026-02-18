@@ -2,7 +2,7 @@
 
 ## A Comprehensive Guide for Data Scientists and Python Developers
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%" />
 
 ## 📋 Table of Contents
 
@@ -18,8 +18,7 @@
 - [Conclusion](#-conclusion)
 - [Additional Resources](#-additional-resources)
 
----
-
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" width="100%" />
 ## 🎯 Overview
 
 ### What This Guide Covers
@@ -41,7 +40,7 @@ This guide provides a step-by-step methodology for registering Python virtual en
 | ✅ **Reproducible** | Easy to version control and share configurations |
 | ✅ **Isolated** | Complete separation of project dependencies |
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" width="100%" />
 
 ## ❌ The Problem
 
@@ -80,7 +79,7 @@ Jupyter only recognizes registered **kernels**. A virtual environment and a Jupy
 
 **The key insight:** You must explicitly register your virtual environment as a Jupyter kernel.
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" width="100%" />
 
 ## 🧩 Solution Architecture
 
@@ -118,7 +117,7 @@ Jupyter only recognizes registered **kernels**. A virtual environment and a Jupy
 3. **`ipykernel`**: IPython kernel for Jupyter
 4. **Jupyter Notebook**: Interactive computing environment
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" width="100%" />
 
 ## 📋 Prerequisites
 
@@ -149,7 +148,7 @@ python --version
 Python 3.10.x
 ```
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" width="100%" />
 
 ## 💡 Implementation Steps
 
@@ -180,7 +179,7 @@ python -m venv data_analysis_env
 **Expected Result:**
 A new directory `.venv` (or your chosen name) containing a complete Python installation.
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" width="100%" />
 
 ### Step 2: Activate the Virtual Environment
 ![Activate the Virtual Environment](https://github.com/coder-akram-khan/data-stack-guides/blob/main/assets/images/j2.png?raw=true)
@@ -222,8 +221,7 @@ Your terminal prompt should now display the environment name:
 (.venv) user@machine:~/project$
 ```
 
----
-
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" width="100%" />
 ### Step 3: Upgrade pip and Install Core Packages
 
 **Purpose:** Ensure you have the latest package installer and install project dependencies.
@@ -256,7 +254,7 @@ pip install -r requirements.txt
 pip freeze > requirements.txt
 ```
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" width="100%" />
 
 ### Step 4: Install Jupyter and IPython Kernel
 ![Install IPython Kernel](https://github.com/coder-akram-khan/data-stack-guides/blob/main/assets/images/j6.png?raw=true)
@@ -277,7 +275,7 @@ jupyter --version
 python -m ipykernel --version
 ```
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" width="100%" />
 
 ### Step 5: Register Virtual Environment as Jupyter Kernel
 ![Register Virtual Environment as Jupyter Kernel](https://github.com/coder-akram-khan/data-stack-guides/blob/main/assets/images/j7.png?raw=true)
@@ -309,7 +307,7 @@ python -m ipykernel install --user --name ml_model --display-name "Python (ML Mo
 Installed kernelspec .venv in /home/user/.local/share/jupyter/kernels/.venv
 ```
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" width="100%" />
 
 ### Step 6: Launch Jupyter Notebook
 ![Launch Jupyter Notebook](https://github.com/coder-akram-khan/data-stack-guides/blob/main/assets/images/j8.png?raw=true)
@@ -345,7 +343,7 @@ If the browser doesn't open automatically, navigate to:
 http://localhost:8888
 ```
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" width="100%" />
 
 ### Step 7: Select Virtual Environment Kernel
 ![Select Virtual Environment Kernel](https://github.com/coder-akram-khan/data-stack-guides/blob/main/assets/images/j10.png?raw=true)
@@ -375,7 +373,7 @@ The kernel name appears in the top-right corner of the notebook interface:
 Python (.venv) ● Connected
 ```
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" width="100%" />
 
 ## ☑ Verification and Testing
 
@@ -404,7 +402,7 @@ C:\Users\YourName\project\.venv\Scripts\python.exe
 
 **✅ Success Indicator:** Path contains your virtual environment directory name (`.venv`)
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" width="100%" />
 
 ### Test 2: Verify Package Installation
 
@@ -430,7 +428,7 @@ NumPy version: 1.24.3
 - Reinstall packages in virtual environment
 - Re-register kernel
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" width="100%" />
 
 ### Test 3: Environment Isolation Test
 
@@ -448,7 +446,7 @@ for path in site.getsitepackages():
 
 **✅ Confirmation:** All paths should reference your `.venv` directory, not system Python.
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" width="100%" />
 
 ## ⚙️ Troubleshooting
 
@@ -487,7 +485,7 @@ for path in site.getsitepackages():
    python -m ipykernel install --user --name .venv --display-name "Python (.venv)"
    ```
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" width="100%" />
 
 ### Issue 2: ModuleNotFoundError Despite Package Installation
 
@@ -507,7 +505,7 @@ for path in site.getsitepackages():
 3. **Stale Kernel Cache**
    - **Fix:** Restart kernel: Kernel → Restart
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" width="100%" />
 
 ### Issue 3: Permission Denied Errors
 
@@ -532,7 +530,7 @@ PermissionError: [Errno 13] Permission denied
    chmod -R 755 ~/.local/share/jupyter/kernels/
    ```
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" width="100%" />
 
 ### Issue 4: Kernel Dies Immediately After Starting
 
@@ -558,7 +556,7 @@ PermissionError: [Errno 13] Permission denied
    jupyter notebook --debug
    ```
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" width="100%" />
 
 ## 🌟 Best Practices
 
@@ -589,7 +587,7 @@ project/
 ~/virtualenvs/all_projects/  # Hard to manage
 ```
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" width="100%" />
 
 ### 2. Dependency Management
 
@@ -619,7 +617,7 @@ numpy==1.24.3
 scikit-learn==1.3.0
 ```
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" width="100%" />
 
 ### 3. One Environment Per Project
 
@@ -644,7 +642,7 @@ projects/
 - Clear project boundaries
 - Simplified debugging
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" width="100%" />
 
 ### 4. Global Jupyter Installation (Optional)
 
@@ -664,7 +662,7 @@ python -m ipykernel install --user --name project_name --display-name "Python (P
 
 **Advantage:** Saves disk space and installation time.
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" width="100%" />
 
 ### 5. Version Control Integration
 
@@ -692,7 +690,7 @@ git add requirements.txt
 git commit -m "Update project dependencies"
 ```
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" width="100%" />
 
 ## 🆚 Comparison with Alternative Methods
 
@@ -724,7 +722,7 @@ git commit -m "Update project dependencies"
 - You have abundant system resources (8GB+ RAM)
 - You need GUI package management
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" width="100%" />
 
 ### Method 3: Docker Containers
 
@@ -742,7 +740,7 @@ git commit -m "Update project dependencies"
 - Team collaboration with exact environment replication
 - You need OS-level isolation
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" width="100%" />
 
 ### Recommendation Matrix
 
@@ -755,7 +753,7 @@ git commit -m "Update project dependencies"
 | **Team Collaboration** | venv + requirements.txt or Docker |
 | **ML Model Development** | venv + ipykernel or Conda |
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" width="100%" />
 
 ## 🏁 Conclusion
 
@@ -780,7 +778,7 @@ git commit -m "Update project dependencies"
 - Complex scientific computing requiring pre-compiled binaries
 - Organizations already standardized on Conda
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" width="100%" />
 
 ## 📚 Additional Resources
 
@@ -800,7 +798,7 @@ git commit -m "Update project dependencies"
 
 🎥 **Watch the step-by-step video tutorial:** [Link to your video/reel]
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" width="100%" />
 
 ## 👨‍💻 About the Author
 
@@ -831,7 +829,7 @@ I'm passionate about making data science accessible through clear, practical tut
 - LinkedIn: [Akram Khan](https://linkedin.com/in/mr-akram-khan)
 - Email: akram.codes.it@gmail.com
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" width="100%" />
 
 ## ⭐ Support This Guide
 
@@ -842,18 +840,18 @@ If this guide helped you:
 - 💬 **Open an issue** for questions or improvements
 - 🤝 **Contribute** with pull requests
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" width="100%" />
 
 ## 📝 License
 
 This guide is released under the [MIT License](LICENSE).
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" width="100%" />
 
 **Last Updated:** February 2024  
 **Version:** 1.0.0
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" width="100%" />
 
 <div align="center">
 
@@ -862,6 +860,7 @@ This guide is released under the [MIT License](LICENSE).
 *Building better workflows, one virtual environment at a time.*
 
 </div>
+
 
 
 
