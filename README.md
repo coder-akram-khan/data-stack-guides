@@ -811,7 +811,7 @@ Special thanks to:
 
 ---
 
-**Last Updated:** February 2024 | **Version:** 1.0.0
+**Last Updated:** February 2026 | **Version:** 1.0.0
 
 Made with ❤️ by [Akram Khan](https://github.com/coder-akram-khan)
 
