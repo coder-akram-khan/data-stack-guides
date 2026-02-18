@@ -790,14 +790,27 @@ git commit -m "Update project dependencies"
 
 ## 👨‍💻 About the Author
 
-**Akram Khan**  
-Data Analyst | Machine Learning Engineer 
+<div align="center">
 
-Specializing in:
-- Data Science & Analytics
-- Machine Learning & AI
-- Python Development
-- Cloud Computing (Azure)
+<img src="https://github.com/coder-akram-khan.png" width="120" style="border-radius: 50%;" alt="Akram Khan">
+
+### **Akram Khan**
+
+*Data Analyst | ML Engineer*
+
+</div>
+
+I'm passionate about making data science accessible through clear, practical tutorials. With experience in analytics, machine learning, and cloud technologies, I create content that bridges the gap between theory and production.
+
+**Specializations:**
+- 📊 Business Analytics & BI
+- 🤖 Machine Learning & AI
+- ☁️ Azure Cloud Architecture
+- 🐍 Python Development
+- 📈 Data Visualization
+
+**Why I Create These Tutorials:**
+> "I've spent countless hours debugging environments, figuring out deployments, and learning from scattered resources. These tutorials are what I wish I had when I started - comprehensive, practical, and production-ready."
 
 📫 **Connect with me:**
 - GitHub: [@coder-akram-khan](https://github.com/coder-akram-khan)
@@ -835,6 +848,7 @@ This guide is released under the [MIT License](LICENSE).
 *Building better workflows, one virtual environment at a time.*
 
 </div>
+
 
 
 
