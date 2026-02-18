@@ -82,7 +82,7 @@ Jupyter only recognizes registered **kernels**. A virtual environment and a Jupy
 
 ---
 
-## 🏗️ Solution Architecture
+## ⚙️ Solution Architecture
 
 ### High-Level Process Flow
 
@@ -835,4 +835,5 @@ This guide is released under the [MIT License](LICENSE).
 *Building better workflows, one virtual environment at a time.*
 
 </div>
+
 
