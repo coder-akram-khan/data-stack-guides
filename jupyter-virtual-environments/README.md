@@ -154,6 +154,8 @@ Python 3.10.x
 ## 💡 Implementation Steps
 
 ### Step 1: Create a Virtual Environment
+![Create a Virtual Environment](https://github.com/coder-akram-khan/data-stack-guides/blob/main/assets/images/j1.png?raw=true)
+
 
 **Purpose:** Create an isolated Python environment for your project.
 
@@ -181,6 +183,7 @@ A new directory `.venv` (or your chosen name) containing a complete Python insta
 ---
 
 ### Step 2: Activate the Virtual Environment
+![Activate the Virtual Environment](https://github.com/coder-akram-khan/data-stack-guides/blob/main/assets/images/j2.png?raw=true)
 
 **Purpose:** Switch your terminal session to use the isolated Python environment.
 
@@ -238,6 +241,7 @@ pip install --upgrade pip
 - Performance improvements
 
 #### Install Project Dependencies
+![Activate the Virtual Environment](https://github.com/coder-akram-khan/data-stack-guides/blob/main/assets/images/j3.png?raw=true)
 
 ```bash
 # Data science stack example
@@ -255,6 +259,7 @@ pip freeze > requirements.txt
 ---
 
 ### Step 4: Install Jupyter and IPython Kernel
+![Install IPython Kernel](https://github.com/coder-akram-khan/data-stack-guides/blob/main/assets/images/j6.png?raw=true)
 
 **Purpose:** Install the necessary packages to create a Jupyter kernel from your virtual environment.
 
@@ -275,6 +280,7 @@ python -m ipykernel --version
 ---
 
 ### Step 5: Register Virtual Environment as Jupyter Kernel
+![Register Virtual Environment as Jupyter Kernel](https://github.com/coder-akram-khan/data-stack-guides/blob/main/assets/images/j7.png?raw=true)
 
 **Purpose:** Make your virtual environment available as a selectable kernel in Jupyter.
 
@@ -306,6 +312,7 @@ Installed kernelspec .venv in /home/user/.local/share/jupyter/kernels/.venv
 ---
 
 ### Step 6: Launch Jupyter Notebook
+![Launch Jupyter Notebook](https://github.com/coder-akram-khan/data-stack-guides/blob/main/assets/images/j8.png?raw=true)
 
 **Purpose:** Start the Jupyter Notebook server.
 
@@ -314,6 +321,7 @@ jupyter notebook
 ```
 
 **What Happens:**
+![Launched Jupyter Notebook](https://github.com/coder-akram-khan/data-stack-guides/blob/main/assets/images/j9.png?raw=true)
 1. Jupyter server starts on `localhost:8888` (or next available port)
 2. Your default web browser opens automatically
 3. File browser shows your current directory
@@ -340,6 +348,12 @@ http://localhost:8888
 ---
 
 ### Step 7: Select Virtual Environment Kernel
+![Select Virtual Environment Kernel](https://github.com/coder-akram-khan/data-stack-guides/blob/main/assets/images/j10.png?raw=true)
+![Select Virtual Environment Kernel](https://github.com/coder-akram-khan/data-stack-guides/blob/main/assets/images/j11.png?raw=true)
+![Select Virtual Environment Kernel](https://github.com/coder-akram-khan/data-stack-guides/blob/main/assets/images/j13.png?raw=true)
+![Select Virtual Environment Kernel](https://github.com/coder-akram-khan/data-stack-guides/blob/main/assets/images/j14.png?raw=true)
+![Select Virtual Environment Kernel](https://github.com/coder-akram-khan/data-stack-guides/blob/main/assets/images/j15.png?raw=true)
+![Select Virtual Environment Kernel](https://github.com/coder-akram-khan/data-stack-guides/blob/main/assets/images/j16.png?raw=true)
 
 **Purpose:** Configure your notebook to use the registered virtual environment kernel.
 
@@ -848,6 +862,7 @@ This guide is released under the [MIT License](LICENSE).
 *Building better workflows, one virtual environment at a time.*
 
 </div>
+
 
 
 
