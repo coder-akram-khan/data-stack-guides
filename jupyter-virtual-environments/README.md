@@ -436,7 +436,7 @@ for path in site.getsitepackages():
 
 ---
 
-## 🛠️ Troubleshooting
+## ⚙️ Troubleshooting
 
 ### Issue 1: Virtual Environment Not Appearing in Kernel List
 
@@ -546,7 +546,7 @@ PermissionError: [Errno 13] Permission denied
 
 ---
 
-## 💡 Best Practices
+## 🌟 Best Practices
 
 ### 1. Virtual Environment Management
 
@@ -680,7 +680,7 @@ git commit -m "Update project dependencies"
 
 ---
 
-## 📊 Comparison with Alternative Methods
+## 🆚 Comparison with Alternative Methods
 
 ### Method 1: This Guide (venv + ipykernel)
 
@@ -743,7 +743,7 @@ git commit -m "Update project dependencies"
 
 ---
 
-## 🎓 Conclusion
+## 🏁 Conclusion
 
 ### Key Takeaways
 
@@ -791,7 +791,7 @@ git commit -m "Update project dependencies"
 ## 👨‍💻 About the Author
 
 **Akram Khan**  
-Data Analyst | Machine Learning Engineer | Python Developer
+Data Analyst | Machine Learning Engineer 
 
 Specializing in:
 - Data Science & Analytics
@@ -835,6 +835,7 @@ This guide is released under the [MIT License](LICENSE).
 *Building better workflows, one virtual environment at a time.*
 
 </div>
+
 
 
 
