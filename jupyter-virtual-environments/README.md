@@ -8,7 +8,7 @@
 
 - [Overview](#-overview)
 - [The Problem](#-the-problem)
-- [Solution Architecture](#solution-architecture)
+- [Solution Architecture](#-solution-architecture)
 - [Prerequisites](#-prerequisites)
 - [Implementation Steps](#-implementation-steps)
 - [Verification and Testing](#-verification-and-testing)
@@ -82,7 +82,7 @@ Jupyter only recognizes registered **kernels**. A virtual environment and a Jupy
 
 ---
 
-## Solution Architecture
+## 🧩 Solution Architecture
 
 ### High-Level Process Flow
 
@@ -835,6 +835,7 @@ This guide is released under the [MIT License](LICENSE).
 *Building better workflows, one virtual environment at a time.*
 
 </div>
+
 
 
 
