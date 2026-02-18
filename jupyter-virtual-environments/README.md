@@ -6,17 +6,17 @@
 
 ## 📋 Table of Contents
 
-- [Overview](#overview)
-- [The Problem](#the-problem)
-- [Solution Architecture](#solution-architecture)
-- [Prerequisites](#prerequisites)
-- [Implementation Steps](#implementation-steps)
-- [Verification and Testing](#verification-and-testing)
-- [Troubleshooting](#troubleshooting)
+- [Overview](#-overview)
+- [The Problem](#-the-problem)
+- [Solution Architecture](#-solution-architecture)
+- [Prerequisites](#-prerequisites)
+- [Implementation Steps](#-implementation-steps)
+- [Verification and Testing](#-verification-and-testing)
+- [Troubleshooting](#-troubleshooting)
 - [Best Practices](#best-practices)
-- [Comparison with Alternative Methods](#comparison-with-alternative-methods)
-- [Conclusion](#conclusion)
-- [Additional Resources](#additional-resources)
+- [Comparison with Alternative Methods](#-comparison-with-alternative-methods)
+- [Conclusion](#-conclusion)
+- [Additional Resources](#-additional-resources)
 
 ---
 
@@ -835,3 +835,4 @@ This guide is released under the [MIT License](LICENSE).
 *Building better workflows, one virtual environment at a time.*
 
 </div>
+
